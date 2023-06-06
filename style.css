@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+
+#header {
+    background: #303030;
+    height: 475px;
+    padding-left: 62px;
+}
+
+#header h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    padding-top: 206px;
+
+    color: #FFFFFF;
+}
+
+#header p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 20px;
+    /* identical to box height, or 140% */
+
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}
+
+#menuInformacional {
+    background: #F9F9F9;
+    height: 229px;
+    display: grid;
+    grid-auto-flow: column;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 171px;
+    align-items: center;
+    color: #303030;
+}
+
+#center {
+    display: flex;
+}
+
+#textCenter {
+    padding-left: 77px;
+    padding-right: 64px;
+    padding-top: 250px;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+}
+
+#center img {
+    width: 510px;
+    height: 605px;
+    background: url(image.png);
+    border-radius: 30px;
+    padding-top: 82px;
+    padding-bottom: 92px;
+    padding-right: 54px;
+}
+
+#formulario {
+    background: #303030;
+    height: 638px;
+    text-align: center;
+}
+
+#formulario h2 {
+    padding-top: 82px;
+    padding-bottom: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#formulario input {
+    margin-bottom: 62px;
+    padding-left: 30px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 508px;
+    height: 72px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#formulario button {
+    margin-top: 24px;
+    width: 286px;
+    height: 74px;
+    left: 577px;
+    background: #C07212;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+}
+
+button:hover {
+    transform: translateY(-7px);
+    color: #FFFFFF;
+    box-shadow: 0px 15px 20px #d89646;
+    transition-duration: 0.5s;
+}
